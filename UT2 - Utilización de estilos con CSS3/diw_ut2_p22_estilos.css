@@ -1,0 +1,110 @@
+/*URL SERVIDOR WEB: http://10.33.15.4/clase/DIW/externa-css/ */
+
+body {
+font-family: Georgia,serif;
+background-color: #f4f6f9;
+color: #333;
+margin: 0;
+padding: 0;
+
+/*Diferencias entre Georgia y Arial, el estilo de Georgia da un aspecto más profesiona
+a la página web mientras que Arial es un tipo de letra más amigable y redondeado*/
+}
+
+header {
+ background-color: #0d47a1;
+ color: white;
+ text-align: center;
+ padding: 1.5rem;
+
+}
+
+h1 {
+
+    margin:0;
+}
+
+.tarjeta  {
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  border-radius: 8px;
+  background: #fff;
+  margin: 20px 0;
+}
+
+a {
+  color: #0A0A0A;
+  text-decoration: none;
+}
+
+.button-link{
+  color: blue;
+  text-decoration: none;
+}
+.subtitulo {
+    font-style: italic;
+    color: #bbdefb;
+}
+
+main {
+
+    padding: 1rem, 2rem;
+}
+
+h2 {
+
+    color: #1565c0;
+    border-bottom: 2px solid #1565c0;
+}
+
+ul {
+
+    list-style-type: circle
+}
+
+li {
+
+    margin: 0.5rem 0;
+}
+
+footer {
+
+    text-align: center;
+    background-color: #e3f2fd;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+button {
+  background-color: #FF9900;
+  color: white;
+  text-decoration: none; /* Elimina el subrayado */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Arial", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  margin: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+  display: inline-block; /* Necesario para que el enlace se comporte como botón */
+}
+
+
+
+button:hover {
+  background-color: #FF8000; /* Color de fondo al pasar el mouse */
+  transform: translateY(-2px); /* Efecto de elevación */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+button:active {
+  background-color: #FF6600; /* Color de fondo al hacer clic */
+  transform: translateY(0); /* Elimina el efecto de elevación */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+

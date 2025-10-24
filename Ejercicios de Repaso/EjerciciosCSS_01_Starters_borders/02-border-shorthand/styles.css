@@ -1,0 +1,10 @@
+.box { 
+    width: 140px; 
+    height: 60px; 
+    display:grid;
+    place-items:center; 
+    margin:10px 0;border:
+    5px solid orange; 
+}
+
+

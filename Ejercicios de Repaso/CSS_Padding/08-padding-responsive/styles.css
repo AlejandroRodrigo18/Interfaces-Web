@@ -1,0 +1,20 @@
+.hero { background:#eef2ff; border:1px solid #c7d2fe; }
+
+/* Mobile-first: default padding for small devices */
+body {
+  padding: 8px; 
+}
+
+/* For devices with a minimum width of 768px (Tablet) */
+@media screen and (min-width: 768px) {
+  body {
+    padding: 24px; /* tablet */
+  }
+}
+
+/* For devices with a minimum width of 992px (Desktop) */
+@media screen and (min-width: 992px) {
+  body {
+    padding: 48px; 
+  }
+}

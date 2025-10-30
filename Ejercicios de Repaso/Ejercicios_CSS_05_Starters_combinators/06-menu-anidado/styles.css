@@ -1,0 +1,6 @@
+.menu { list-style:none; padding:0; }
+.menu > li > a { margin:0; padding:0; background-color: violet; }
+ul > li > ul { background-color: limegreen; }
+
+
+

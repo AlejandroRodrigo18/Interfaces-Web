@@ -1,0 +1,14 @@
+/*Ocultamos el contenido por defecto*/
+.detalles { display:none;  }
+
+/*Ocultar el checkbox pero mantenemos su funcionalidad*/
+/*#chk {display: none;}*/
+
+/*Mostramos el contenido cuando el checbox este marcado*/
+#chk:checked ~ .detalles {
+    display: block;
+    background-color: yellow;
+  
+}
+/* Objetivo: cuando #chk esté :checked, mostrar .detalles usando un combinador adecuado */
+

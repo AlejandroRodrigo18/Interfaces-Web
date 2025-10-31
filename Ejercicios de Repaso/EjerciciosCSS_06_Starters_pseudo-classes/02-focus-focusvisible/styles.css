@@ -1,0 +1,12 @@
+/* Objetivo:
+   - En :focus, añade un contorno (outline) base.
+   - En :focus-visible, mejora la accesibilidad con un contorno más evidente.
+*/
+
+:focus {
+   outline: 3.5px solid #007BFF;
+}
+
+:focus-visible {
+   outline: 3px solid #FF5733;
+}
